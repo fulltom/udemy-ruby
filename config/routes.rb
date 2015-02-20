@@ -2,7 +2,6 @@ Rails.application.routes.draw do
   match "/" => 'aaa_core#index', via: :get
   match "/shop" => 'aaa_core#shop', via: :get
   match "/discussion" => 'aaa_core#discussion', via: :get
-  match "/events" => 'aaa_core#events', via: :get
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
